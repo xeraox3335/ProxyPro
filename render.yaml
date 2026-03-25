@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: proxypro
+    runtime: node
+    buildCommand: npm install --production
+    startCommand: npm start
+    # render.com sets PORT automatically; you do not need to change it.
+    envVars:
+      # Optional: set a username and password to protect your proxy.
+      # Leave both empty to run without authentication.
+      - key: PROXY_USER
+        value: ""
+      - key: PROXY_PASS
+        value: ""
