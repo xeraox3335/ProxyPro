@@ -1,0 +1,15 @@
+{
+  "name": "proxypro",
+  "version": "1.0.0",
+  "description": "Browser-compatible HTTP/HTTPS proxy server deployable on render.com for free",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["proxy", "http-proxy", "https-proxy", "render"],
+  "license": "MIT"
+}
